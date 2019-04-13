@@ -2,9 +2,41 @@
 <html>
   <head>
     <title>Semantic HTML Demo</title>
-    <link rel="stylesheet" href="css/style.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      nav ul li {
+        display: inline-block;
+        float: right;
+        color: grey;
+        margin: 5px;
+      }
+
+      nav ul li a:hover {
+        color: brown;
+        text-decoration: none;
+      }
+
+      @-webkit-keyframes slideX {
+        0% {
+          width: 0%;
+          background-color: black;
+        }
+
+        100% {
+          width: 100%;
+          background-color: white;
+        }
+      }
+
+      article {
+        border: 2px solid black;
+        -webkit-animation-name: slideX;
+        -webkit-animation-duration: 4s;
+        -webkit-animation-delay: 0.5s;
+        -webkit-animation-fill-mode: forwards;
+      }
+    </style>
   </head>
   <body>
     <header>
