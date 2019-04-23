@@ -1,0 +1,30 @@
+body {
+background-color: LightGrey;
+border-style: solid;
+border-width: thin;
+margin: 5px;
+padding: 5px;
+font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  background-color:teal;
+}
+
+p {
+  background-color: rgb(250, 128, 114);
+  width: 50%;
+  text-decoration: underline;
+}
+
+.scientists > p {
+ color: red;
+}
+
+.cosmic ~ p {
+  opacity: 0.5;
+}
+
+.clearBG {
+   background-color: rgba(250, 128, 114, 0.25);
+}

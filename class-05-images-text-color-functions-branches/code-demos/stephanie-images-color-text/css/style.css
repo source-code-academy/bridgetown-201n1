@@ -1,0 +1,38 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  /*font-family: serif;*/
+}
+
+/*add color and opacity*/
+header {
+  width: 200px;
+  border: 10px solid orange;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #188ded;
+  /*background-color: rgba(40, 32, 200, .3);*/
+  /*background-color: hsla(296, 100%, 50%, 0.68);*/
+  opacity: 0.3;
+}
+
+h1 {
+  color: blue;
+  margin: inherit;
+  background-color: inherit;
+  font-family: 'Dancing Script', cursive;
+}
+
+.catbio {
+  clear: both;
+  height: 100%
+}
+
+.catbio p {
+  display: inline;
+}
+
+.catbio img {
+  float: left;
+}
+
+/*a:visted color*/
