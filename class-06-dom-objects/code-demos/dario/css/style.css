@@ -1,0 +1,8 @@
+.red {
+  color: red;
+  border: solid 1px #000;
+}
+
+.small {
+  font-size: 8px;
+}
