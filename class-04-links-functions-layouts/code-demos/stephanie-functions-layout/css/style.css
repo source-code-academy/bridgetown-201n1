@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  width: 200px;
+  border: 10px solid orange;
+  padding: 50px;
+  /*margin: 100px;*/
+  margin: 0 auto;
+}
+
+/*header {
+  position: relative;
+}*/
+/*relative positioning: leave in normal flow (other elements know it's there), moves it relative to where it would have been otherwise*/
+/*absolute positioning: takes it out of normal flow, it moves with the page*/
+/*fixed positioning: takes it out of normal flow, doesn't move with the page*/
+
+h1 {
+  color: blue;
+  margin: inherit;
+}
+
+/*clear says, "don't let anything touch me on x side." That can be either the left side, the right side, or both sides*/
+.catbio {
+  clear: both;
+  height: 100%
+}
+
+/*tell the catbio paragraph that it can sit next to the image, on the same "line" (FWIW, "line" is not a technical term, but it helps in thinking about it)*/
+.catbio p {
+  display: inline;
+}
+
+/*tell the catbio image to go to the left, and allow other elements - like our paragraph - to wrap around it*/
+.catbio img {
+  float: left;
+}
