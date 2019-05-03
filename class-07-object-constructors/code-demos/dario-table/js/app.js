@@ -131,6 +131,7 @@ var person3 = {
     console.log(name + ", how you doing?");
   }
 };
+
 /* you get the point */
 /*If we decide to change the way that the method works or add a attribute then we need to change it in each instance */
 var person5 = {
@@ -145,7 +146,7 @@ var person5 = {
     return greeting;
   }
 };
-
+console.log(person, person1,person2,person3,person5);
 /* We can create a function to create these similar objects in a single step too! */
 
 function Person(name, height, hairColor, gender, greeting) {
