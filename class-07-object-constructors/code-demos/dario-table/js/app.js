@@ -92,8 +92,8 @@ names.forEach(function(item) {
 
 /* Constructors */
 
-// Same concept applie to object creation
-//We can manually create multiple object of the same type by assigin similar literals
+// Same concept applies to object creation
+//We can manually create multiple object of the same type by assign similar literals
 
 var person = {
   name: "Darface",
@@ -146,7 +146,7 @@ var person5 = {
     return greeting;
   }
 };
-console.log(person, person1,person2,person3,person5);
+console.log(person, person1, person2, person3, person5);
 /* We can create a function to create these similar objects in a single step too! */
 
 function Person(name, height, hairColor, gender, greeting) {
