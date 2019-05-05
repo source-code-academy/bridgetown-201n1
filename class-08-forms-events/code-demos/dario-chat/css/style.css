@@ -1,0 +1,38 @@
+section {
+  border: 2px solid purple;
+  background-color: beige;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.message-container {
+  border: 1px solid black;
+  width: 100px;
+  overflow: auto;
+  margin: 10px;
+}
+
+.message-container img {
+  width: 32px;
+  border-radius: 50%;
+  float: right;
+}
+
+.message-container h2 {
+  float: left;
+}
+
+.message-container span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  clear: both;
+}
+
+img {
+  width: 60px;
+}
+
+.highlight {
+  border: 5px solid black;
+}

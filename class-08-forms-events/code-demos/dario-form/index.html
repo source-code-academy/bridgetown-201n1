@@ -9,22 +9,23 @@
   <body>
     <form id="task-form">
       <fieldset>
-        <legend>Todo:</legend>
-        <label for="task">Task: </label>
-        <input type="text" name="task" />
-        <label for="deadline">Deadline: </label>
-        <input type="text" name="deadline" />
-        <button id="add-task">Add</button>
+        <legend>Todo Fields</legend>
+
+        <label for="task">Task:</label>
+        <input type="text" name="task-field" id="task" required="required" />
+
+        <label for="deadline">Deadline:</label>
+        <input type="date" name="deadline-field" id="deadline" required />
+
+        <button type="submit">Add New</button>
+        <button type="reset">Clear</button>
       </fieldset>
     </form>
+
     <table id="tasks">
       <tr>
         <th>Task</th>
         <th>Deadline</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
       </tr>
     </table>
 
