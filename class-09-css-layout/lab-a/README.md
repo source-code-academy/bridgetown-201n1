@@ -2,11 +2,11 @@
 
 ## Wireframe Overview
 
-Create a new repo titled 'wirefame-exercise', making sure to configure it with `index.html`, `style.css`, and `reset.css` (use [Eric Meyer's reset](https://meyerweb.com/eric/tools/css/reset)).
+Create a new repo titled 'wireframe-exercise', making sure to configure it with `index.html`, `style.css`, and `reset.css` (use [Eric Meyer's reset](https://meyerweb.com/eric/tools/css/reset)).
 
-You will be building a professional-style wireframe document, to a provided spec, using just HTML and CSS. This workflow is similar to what you would encounter in an environment where there is a designer on the team: the designer creates a ***design comp*** (short for *comprehensive*) that shows you what the final version should look like, plus, a document with annotations about specific sizes and features.
+You will be building a professional-style wireframe document, to a provided spec, using just HTML and CSS. This workflow is similar to what you would encounter in an environment where there is a designer on the team: the designer creates a **_design comp_** (short for _comprehensive_) that shows you what the final version should look like, plus, a document with annotations about specific sizes and features.
 
-*Note: All of the images in this document are in the adjacent `images/` directory*
+_Note: All of the images in this document are in the adjacent `images/` directory_
 
 Here is the comp (a little smaller here to provide an overview):
 
@@ -24,7 +24,7 @@ There are a lot of [image placeholder services](http://lmgtfy.com/?q=image+place
 
 ![Non-professional wireframe buildout](images/wireframe-NOT-pro.png)
 
-As for text, the industry standard for placeholder text is plain old ["Lorem ipsum"](https://www.lipsum.com) rather than all of the fun ***ipsum*** variants on the internet.
+As for text, the industry standard for placeholder text is plain old ["Lorem ipsum"](https://www.lipsum.com) rather than all of the fun **_ipsum_** variants on the internet.
 
 ## Wireframe Process
 
@@ -45,10 +45,10 @@ This is NOT AT ALL how pros do it.
 **Let's look at a professional approach to setting up a web document, or more specifically, the look and feel of an application.**
 
 1. Have a design concept and a plan completely ready to go before you write the first line of code.
-    - Wireframe showing all document dimensions
-    - Know where images will go and how big they will be
-    - Use placeholder images during the setup process
-    - Know where text will go and use placeholder *lorem ipsum* text
+   - Wireframe showing all document dimensions
+   - Know where images will go and how big they will be
+   - Use placeholder images during the setup process
+   - Know where text will go and use placeholder _lorem ipsum_ text
 2. Set up the project repository, scaffold the files, and make sure they are wired together.
 3. ACP (Add, Commit, Push)
 4. Build out all of the HTML without applying any classes or IDs
