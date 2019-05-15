@@ -1,0 +1,19 @@
+#da-img img {
+  width: 50%; /* 5 always size fo container */
+  min-width: 300px;
+  clear: both;
+  /* height: 100px; */
+}
+
+#get-img {
+  clear: both;
+}
+
+#da-img {
+  width: 90%;
+  background-color: black;
+}
+
+ul li {
+  display: inline;
+}
