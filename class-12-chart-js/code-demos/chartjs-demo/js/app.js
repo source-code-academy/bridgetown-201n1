@@ -38,7 +38,7 @@ colorGraph.pushPieGraphData(red);
 colorGraph.pushPieGraphData(green);
 colorGraph.pushPieGraphData(blue);
 colorGraph.renderToCanvasContainer();
-colorGraph.renderToCanvasContainer();
+// colorGraph.renderToCanvasContainer();
 
 
 // var chartjsCanvas = document.getElementById('javascript-pie-graph');
